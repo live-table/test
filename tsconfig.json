@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"declarationDir": "dist",
+		"jsx": "react",
+		"module": "commonjs",
+		"sourceMap": true,
+		"strict": true
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"files": [
+		"src/index.tsx"
+	]
+}

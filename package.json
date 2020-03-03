@@ -1,0 +1,48 @@
+{
+  "name": "@live-table/test",
+  "version": "1.0.0",
+  "description": "The live tests of @live-table/core implementations",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node scripts/start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/live-table/test.git"
+  },
+  "keywords": [
+    "live-table",
+    "table",
+    "react",
+    "webpack-dev-server"
+  ],
+  "author": "Dorian Herlory (https://laboiteadodo.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/live-table/test/issues"
+  },
+  "homepage": "https://github.com/live-table/test#readme",
+  "dependencies": {
+    "@live-table/react": "file:../react",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.2",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/shelljs": "^0.8.6",
+    "@types/webpack": "^4.41.7",
+    "@types/webpack-dev-server": "^3.10.0",
+    "html-webpack-plugin": "^3.2.0",
+    "shelljs": "^0.8.3",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
